@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to left, rgb(25, 119, 227),  rgb(187, 163, 179));
+    height: 100;
+    text-align: center;
+    font-size: large;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', 'Lobster', sans-serif;
+    font-style: italic;
+     background: linear-gradient(to bottom, #fad840, rgb(221, 35, 66));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+hr{
+    border: auto;
+      background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    height: 5px;
+    background-size: 200% auto;
+    width: 80%;
+    animation: rainbow 2s linear infinite;
+    margin: 20px auto;
+}
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#one{
+    color: rgba(140, 100, 0, 99)
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 225px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 1.5);
+    color: rgb(100, 0, 70);
+    margin: auto;
+    text-align: center;
+    border: solid;
+    height: 250px;
+    width: 250px;
+}
+
+#first {
+  font-family: 'Lobster', sans-serif;
+  font-size: large;
+  color: rgba(0, 255, 50, 0.8);
+  font-style: italic;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:active {
+  color: lightcyan;
+  text-decoration: none;
+}
+
+section {
+  border: dotted;
+  height: 30px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  color: rgb(18, 42, 164);
+  background: linear-gradient(to right, greenyellow, goldenrod);
+}
+
+footer {
+  color: aqua;
+}
+
+.fa-house {
+  color: brown;
+  height: 20px;
+  width: 20px;
+}
